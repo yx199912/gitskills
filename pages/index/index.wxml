@@ -1,0 +1,48 @@
+<view>
+  <swiper autoplay	indicator-dots >
+    <swiper-item>
+      <image src="/images/1.jpg" class="img"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/2.jpg" class="img"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/3.jpg" class="img"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="maxview">
+  <view class="box"  bindtap="go">
+    <image src="/images/go.png" class="icon"></image>
+    <text>请选择出发地点</text>
+    <image src="/images/big.png" class="big"></image>
+  </view>
+
+  <view class="box" bindtap="arrive">
+    <image src="/images/arrive.png" class="icon"></image>
+    <text>请选择到达地点</text>
+    <image src="/images/big.png" class="big"></image>
+  </view>
+
+  <view class="roadview">
+    <image src="/images/road.png" id="road"></image>
+  </view>
+ 
+
+  <view class="boxthree">
+    <image src="/images/time.png" class="icon"></image>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2099-09-01" bindchange="bindDateChange">
+    <view class="picker">
+    {{date}}
+    </view>
+    </picker>
+    <image src="/images/big.png" id="big"></image>
+  </view>
+
+  
+
+  <view class="btnview">
+    <button class="btn" style="width: 80%;">立即查询</button>
+  </view>
+</view>

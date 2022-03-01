@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/go/go",
+    "pages/arrive/arrive"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "客家旅运",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "预订",
+      "iconPath": "images/f1_s.png",
+      "selectedIconPath": "images/f1.png"
+      }, {
+        "pagePath": "pages/logs/logs",
+        "text": "车票",
+        "iconPath": "images/f2_s.png",
+        "selectedIconPath": "images/f2.png"
+        }, {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "images/f3_s.png",
+          "selectedIconPath": "images/f3.png"
+          }
+  ]
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

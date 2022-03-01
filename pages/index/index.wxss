@@ -1,0 +1,67 @@
+.img {
+ width: 100%;
+ height: 400rpx;
+}
+
+.icon {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.box {
+  width: 65%;
+  padding: 30rpx;
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+.boxthree {
+  padding: 30rpx;
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.big {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  float: right;
+}
+
+#road {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.maxview {
+  position: relative;
+}
+
+.roadview {
+  position: absolute;
+  top: 85rpx;
+  right: 60rpx;
+}
+
+.btnview {
+  margin-top: 100rpx;
+ 
+}
+
+.btn {
+  /* background-color: orangered; */
+  color: white;
+  background: linear-gradient(to right, orange , orangered);
+}
+
+.boxthree {
+  display: flex;
+  flex-direction: row;
+}
+
+#big {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-left: auto;
+}
